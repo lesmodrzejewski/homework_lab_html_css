@@ -1,0 +1,98 @@
+body {
+    font-family: "Outfit";
+}
+
+body > header {
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-between
+}
+
+body > header h1 {
+    color: white;
+    margin-left: 10px;
+}
+
+body > header > nav > ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+body > header > nav > ul > li {
+    margin: 10px
+}
+
+body > header > nav > ul > li > a {
+    color: white
+}
+
+input[type=submit] {
+    width: 75px;
+}
+
+input[type=email],
+input[type=password] {
+    width: 40%
+}
+
+#login-and-categories-section {
+    width: 35%;
+    height: 700px;
+    float: left;
+}
+    
+
+#login {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#latest-news {
+    width: 65%;
+    height: 700px;
+    float: right;
+}
+
+.single-news {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.single-news img {
+    margin: 35px;
+    border: 2px solid red;
+
+}
+
+.single-news-content {
+    margin: 15px;
+}
+
+#textarea {
+    margin-bottom: 30px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+}
+
+.textarea-button {
+    float: right;
+}
+
+img {
+    width: 100px;
+}
+
+footer {
+    font-size: 10px;
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
