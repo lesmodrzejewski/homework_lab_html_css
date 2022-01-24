@@ -2,6 +2,10 @@ body {
     font-family: "Outfit";
 }
 
+img {
+    width: 100px;
+}
+
 body > header {
     background-color: dodgerblue;
     display: flex;
@@ -34,42 +38,42 @@ input[type=submit] {
 
 input[type=email],
 input[type=password] {
-    width: 40%
+    width: 200px;
 }
 
-#login-and-categories-section {
-    width: 35%;
-    height: 700px;
-    float: left;
+main,
+article,
+#comments {
+    width: 90%;
+    margin: auto
+}
+
+main {
+    display: flex;
+}
+
+aside{
+    width: 20%;    
 }
     
 
 #login {
     display: flex;
     flex-direction: column;
-
 }
 
 #latest-news {
-    width: 65%;
-    height: 700px;
-    float: right;
+    width: 80%;
 }
 
 .single-news {
-    border: 2px solid red;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 5fr;
+    grid-gap: 5px;
 }
 
-.single-news img {
-    margin: 35px;
-    border: 2px solid red;
-
-}
-
-.single-news-content {
-    margin: 15px;
+.single-news img{
+    padding: 10px 0;
 }
 
 #textarea {
@@ -85,8 +89,8 @@ textarea {
     float: right;
 }
 
-img {
-    width: 100px;
+.user {
+    border-top: 1px dotted dodgerblue;
 }
 
 footer {
